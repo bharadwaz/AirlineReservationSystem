@@ -25,7 +25,6 @@ router.get("/",function(req,res){
 		
 
 		if(!err){
-		console.log("fasdfksadf^^^^^^^^^^^^^^^^^^^^^^^^^^");
 		var formated_result = formated_date(rows);
 		console.log(formated_result);
 		res.render('cancel',{ cancel_result_data:formated_result})
