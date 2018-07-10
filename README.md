@@ -17,5 +17,5 @@ Using this website user can register, login, search for a flights, book the tick
 * Run sql statements in `load_data.sql`(In mySql shell)(run the statements in the order of tables created in create_table_scripts)
 
 ## How to Run ##
-* Run `node server.js` You change port in server.js
-* open browser and hit 'http://ipaddress:port/airlineReservation'
+* Run `node server.js` Port can be changed in server.js
+* open browser and hit 'http://localhost:port/airlineReservation'
